@@ -86,7 +86,7 @@ namespace ConsoleApp1
             await Task.Delay(TimeSpan.FromHours(2));
 
             Random _rand = new Random();
-            // test
+
             int randMin = 0;
             int randMax = numFacts - 1;
             int randNum = _rand.Next(randMin, randMax);
