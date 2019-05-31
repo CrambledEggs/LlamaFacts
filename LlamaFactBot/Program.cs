@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using System.Reflection;
 using System.Linq;
 using System.IO;
-using System.Net.Http; //Works, just need to manage HTML code which is dumb and stupid
+using System.Net.Http;
 using GoogleCSE;
 
 namespace ConsoleApp1
@@ -86,7 +86,7 @@ namespace ConsoleApp1
             await Task.Delay(TimeSpan.FromHours(2));
 
             Random _rand = new Random();
-
+            
             int randMin = 0;
             int randMax = numFacts - 1;
             int randNum = _rand.Next(randMin, randMax);
