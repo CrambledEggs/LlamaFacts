@@ -57,7 +57,7 @@ namespace ConsoleApp1
             //Setup logging tools
             _client.Log += Log;
 
-            await _client.LoginAsync(TokenType.Bot, "MzI2NTU1NzI0MjUzNzU3NDQx.XOilUA.lmZcmutI2ynsvTZXjzYWUSDSJgE");
+            await _client.LoginAsync(TokenType.Bot, "");
             await _client.StartAsync();
 
             _client.Ready += LlamaReady;
